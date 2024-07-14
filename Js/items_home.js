@@ -1,4 +1,4 @@
-fetch('js/items.json')
+fetch('Js/items.json')
             .then(response => response.json())
             .then(data=>{
                 const swiper_items_sale = document.getElementById("swiper_items_sale")
