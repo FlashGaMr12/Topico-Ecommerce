@@ -18,7 +18,7 @@ var swiper = new Swiper(".slide-swp", {  //my class is slide-swp
       dynamicBullets: true,
       clickable: true,
     },
-    slidesPerView:5,
+    slidesPerView:3,
     spaceBetween:30,
     autoplay: {
       Delay: 3000,
