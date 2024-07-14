@@ -9,6 +9,7 @@ var swiper = new Swiper(".slide-swp", {  //my class is slide-swp
     autoplay: {
       Delay: 2000,
     },
+    loop:true,
   });
 //  Swiper slide - sale Slide 
   var swiper = new Swiper(".sale_sec", {  //my class is slide-swp
@@ -17,11 +18,12 @@ var swiper = new Swiper(".slide-swp", {  //my class is slide-swp
       dynamicBullets: true,
       clickable: true,
     },
-    slidesPerView:2,
+    slidesPerView:5,
     spaceBetween:30,
     autoplay: {
       Delay: 3000,
     },
+         loop:true,
     navigation:{
         nextEl:".swiper-button-next",
         prevEl:".swiper-button-prev",
