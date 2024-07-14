@@ -9,7 +9,6 @@ var swiper = new Swiper(".slide-swp", {  //my class is slide-swp
     autoplay: {
       Delay: 2000,
     },
-    loop: true,
   });
 //  Swiper slide - sale Slide 
   var swiper = new Swiper(".sale_sec", {  //my class is slide-swp
@@ -27,5 +26,4 @@ var swiper = new Swiper(".slide-swp", {  //my class is slide-swp
         nextEl:".swiper-button-next",
         prevEl:".swiper-button-prev",
     },
-    loop: true,
   });
