@@ -4,9 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Topico</title>
-    <!-- FAVICON -->
-    <link rel="icon" type="image/x-icon" href="Images/favicon.ico" />
-
+    <!-- favicon  -->
+    <link rel="icon" type="image/x-icon" href="/Images/favicon.ico" />
     <!-- CSS FILE  -->
     <link rel="stylesheet" href="styles.css" />
     <!-- FONT AWESOME  -->
@@ -70,41 +69,14 @@
     <div class="cart">
       <!-- TOP CART  -->
       <div class="top_cart">
-        <h3>My Cart <span>(0 Item in Cart)</span></h3>
+        <h3>My Cart <span class="count_item_cart">(0 Item in Cart)</span></h3>
         <span onclick="close_cart()" class="close_cart"
           ><i class="fa-regular fa-circle-xmark"></i
         ></span>
       </div>
 
       <!-- Cart items / total / Middle cart -->
-      <div class="items_in_cart">
-        <div class="items_cart">
-          <img src="Images/product/product-1.jpg" alt="product1" />
-          <div class="content">
-            <h4>
-              IPhone X 128gb
-            </h4>
-
-            <p class="price_cart">$185</p>
-          </div>
-          <button class="clear_btn">
-            <i class="fa-regular fa-trash-can"></i>
-          </button>
-        </div>
-
-        <div class="items_cart">
-          <img src="Images/product/product-2.jpg" alt="product2" />
-          <div class="content">
-            <h4>
-              Samsung Galaxy J7 64gb
-            </h4>
-            <p class="price_cart">$100</p>
-          </div>
-          <button onclick="delete_item()" class="clear_btn">
-            <i class="fa-regular fa-trash-can"></i>
-          </button>
-        </div>
-      </div>
+      <div class="items_in_cart"></div>
       <div class="bottom_cart">
         <div class="total">
           <p>Cart subtotal</p>
@@ -169,7 +141,10 @@
           <img src="Images/features3.png" alt="feature3" />
           <div class="feature_text">
             <h4>24/7 customer support</h4>
-            <p>Our customer support is available 24/7 with free shipping on all orders</p>
+            <p>
+              Our customer support is available 24/7 with free shipping on all
+              orders
+            </p>
           </div>
         </div>
         <div class="feature_item">
@@ -183,7 +158,9 @@
           <img src="Images/features5.png" alt="feature5" />
           <div class="feature_text">
             <h4>Special offers</h4>
-            <p>Take advantage of special offers with free shipping on all orders.</p>
+            <p>
+              Take advantage of special offers with free shipping on all orders.
+            </p>
           </div>
         </div>
       </div>
@@ -232,10 +209,10 @@
     </section>
 
     <!-- JS FILE  -->
-    <script src="Js/items_home.js"></script>
-    <script src="Js/main.js"></script>
+    <script src="js/items_home.js"></script>
+    <script src="js/main.js"></script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="Js/swiper.js"></script>
+    <script src="js/swiper.js"></script>
   </body>
 </html>
