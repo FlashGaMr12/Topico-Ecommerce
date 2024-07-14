@@ -3,7 +3,7 @@
       "id": 0,
       "img": "Images/product/product1.jpg",
       "img_hover": "Images/product/product-1.jpg",
-      "name": "Original Mobile Android Dual SIM Smart Phone G3",
+      "name": "IPhone X",
       "price": 185,
       "old_price": 225
     },
@@ -19,7 +19,7 @@
       "id": 2,
       "img": "Images/product/product3.jpg",
       "img_hover": "Images/product/product-3.jpg",
-      "name": "Original Mobile Android Dual SIM Smart Phone G3",
+      "name": "Samsung 24 INCH Monitor",
       "price": 140,
       "old_price": 200
     },
@@ -27,7 +27,7 @@
       "id": 3,
       "img": "Images/product/product4.jpg",
       "img_hover": "Images/product/product-4.jpg",
-      "name": "Original Mobile Android Dual SIM Smart Phone G3",
+      "name": "Wooden Headphone HQ",
       "price": 90,
       "old_price": 110
     },
@@ -35,7 +35,7 @@
       "id": 4,
       "img": "Images/product/product5.jpg",
       "img_hover": "Images/product/product-5.jpg",
-      "name": "Original Mobile Android Dual SIM Smart Phone G3",
+      "name": "Original Harman-Kardon earbuds",
       "price": 350,
       "old_price": 420
 
@@ -44,7 +44,7 @@
       "id": 5,
       "img": "Images/product/product6.jpg",
       "img_hover": "Images/product/product-6.jpg",
-      "name": "Original Mobile Android Dual SIM Smart Phone G3",
+      "name": "Samsung galaxy s20 ultra",
       "price": 115,
       "old_price": 235
     },
@@ -52,7 +52,7 @@
       "id": 6,
       "img": "Images/product/product7.jpg",
       "img_hover": "Images/product/product-7.jpg",
-      "name": "Original Mobile Android Dual SIM Smart Phone G3",
+      "name": "IPhone 6S",
       "price": 225,
       "old_price": 280
     },
@@ -60,7 +60,7 @@
       "id": 7,
       "img": "Images/product/product8.jpg",
       "img_hover": "Images/product/product-8.jpg",
-      "name": "Original Mobile Android Dual SIM Smart Phone G3",
+      "name": "Apple watch 3",
       "price": 150,
       "old_price": 200
     },
