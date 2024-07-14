@@ -1,14 +1,19 @@
-fetch('Js/items.json')
+
+fetch("js/items.json")
             .then(response => response.json())
             .then(data=>{
-                const swiper_items_sale = document.getElementById("swiper_items_sale")
+                
+              
+            const swiper_items_sale = document.getElementById("swiper_items_sale")
+
+            all_products_json = data
                 data.forEach(product => {
                     if(product.old_price){
                         const salePercent = Math.floor((product.old_price - product.price) / product.old_price * 100) //remove decimals
                         swiper_items_sale.innerHTML +=`
                           <div class="product swiper-slide">
               <div class="icons">
-                <span> <i class="fa-solid fa-cart-plus"></i></span>
+                <span> <i onclick="addToCart(${product.id}, this)" class="fa-solid fa-cart-plus"></i></span>
                 <span> <i class="fa-solid fa-heart"></i> </span>
                 <span> <i class="fa-solid fa-share"></i> </span>
               </div>
