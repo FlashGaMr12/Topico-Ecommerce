@@ -3,7 +3,7 @@
       "id": 0,
       "img": "Images/product/product1.jpg",
       "img_hover": "Images/product/product-1.jpg",
-      "name": "IPhone X",
+      "name": "IPhone X 128gb",
       "price": 185,
       "old_price": 225
     },
@@ -11,7 +11,7 @@
       "id": 1,
       "img": "Images/product/product2.jpg",
       "img_hover": "Images/product/product-2.jpg",
-      "name": "Original Mobile Android Dual SIM Smart Phone G3",
+      "name": "Samsung Galaxy J7 64gb",
       "price": 100,
       "old_price": 120
     },
@@ -44,7 +44,7 @@
       "id": 5,
       "img": "Images/product/product6.jpg",
       "img_hover": "Images/product/product-6.jpg",
-      "name": "Samsung galaxy s20 ultra",
+      "name": "Samsung galaxy s20 ultra 512gb",
       "price": 115,
       "old_price": 235
     },
@@ -52,7 +52,7 @@
       "id": 6,
       "img": "Images/product/product7.jpg",
       "img_hover": "Images/product/product-7.jpg",
-      "name": "IPhone 6S",
+      "name": "IPhone 6S 128gb",
       "price": 225,
       "old_price": 280
     },
